@@ -1,5 +1,7 @@
+import { hello } from "../styles/Home.css";
+
 const Home: React.FC = () => (
-  <div>
+  <div className={hello}>
     <p>Hello World</p>
   </div>
 );
